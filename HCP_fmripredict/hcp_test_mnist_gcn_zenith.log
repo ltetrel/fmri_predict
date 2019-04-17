@@ -1,0 +1,671 @@
+2019-04-16 16:18:26.582710: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2019-04-16 16:18:26.588224: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2400000000 Hz
+2019-04-16 16:18:26.589536: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x5555594dc2b0 executing computations on platform Host. Devices:
+2019-04-16 16:18:26.589560: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-39
+OMP: Info #156: KMP_AFFINITY: 40 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 20 cores/pkg x 1 threads/core (40 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 0 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 16 maps to package 0 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 18 maps to package 0 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 0 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 0 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 20 maps to package 0 core 16 
+OMP: Info #171: KMP_AFFINITY: OS proc 24 maps to package 0 core 17 
+OMP: Info #171: KMP_AFFINITY: OS proc 28 maps to package 0 core 18 
+OMP: Info #171: KMP_AFFINITY: OS proc 26 maps to package 0 core 19 
+OMP: Info #171: KMP_AFFINITY: OS proc 22 maps to package 0 core 20 
+OMP: Info #171: KMP_AFFINITY: OS proc 32 maps to package 0 core 24 
+OMP: Info #171: KMP_AFFINITY: OS proc 36 maps to package 0 core 25 
+OMP: Info #171: KMP_AFFINITY: OS proc 38 maps to package 0 core 26 
+OMP: Info #171: KMP_AFFINITY: OS proc 34 maps to package 0 core 27 
+OMP: Info #171: KMP_AFFINITY: OS proc 30 maps to package 0 core 28 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 1 core 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 1 core 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 1 core 2 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 1 core 3 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 1 core 4 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 8 
+OMP: Info #171: KMP_AFFINITY: OS proc 17 maps to package 1 core 9 
+OMP: Info #171: KMP_AFFINITY: OS proc 19 maps to package 1 core 10 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 11 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 1 core 12 
+OMP: Info #171: KMP_AFFINITY: OS proc 21 maps to package 1 core 16 
+OMP: Info #171: KMP_AFFINITY: OS proc 25 maps to package 1 core 17 
+OMP: Info #171: KMP_AFFINITY: OS proc 29 maps to package 1 core 18 
+OMP: Info #171: KMP_AFFINITY: OS proc 27 maps to package 1 core 19 
+OMP: Info #171: KMP_AFFINITY: OS proc 23 maps to package 1 core 20 
+OMP: Info #171: KMP_AFFINITY: OS proc 33 maps to package 1 core 24 
+OMP: Info #171: KMP_AFFINITY: OS proc 37 maps to package 1 core 25 
+OMP: Info #171: KMP_AFFINITY: OS proc 39 maps to package 1 core 26 
+OMP: Info #171: KMP_AFFINITY: OS proc 35 maps to package 1 core 27 
+OMP: Info #171: KMP_AFFINITY: OS proc 31 maps to package 1 core 28 
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134519 thread 0 bound to OS proc set 0
+2019-04-16 16:18:26.592698: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:From SCRIPTS/fmri_predict/HCP_fmripredict/my_test_mnist_gcn.py:53: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /home/loic.mcgill/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /home/loic.mcgill/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /home/loic.mcgill/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /home/loic.mcgill/anaconda3/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134656 thread 1 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134657 thread 2 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134658 thread 3 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134659 thread 4 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134660 thread 5 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134661 thread 6 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134662 thread 7 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134663 thread 8 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134665 thread 10 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134664 thread 9 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134666 thread 11 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134667 thread 12 bound to OS proc set 16
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134668 thread 13 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134669 thread 14 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134670 thread 15 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134671 thread 16 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134672 thread 17 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134673 thread 18 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134674 thread 19 bound to OS proc set 11
+WARNING:tensorflow:From /home/loic.mcgill/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/loic.mcgill/SCRIPTS/fmri_predict/HCP_fmripredict/cnn_graph/lib/models.py:225: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134655 thread 20 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134687 thread 21 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134688 thread 22 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134689 thread 23 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134690 thread 24 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134692 thread 26 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134691 thread 25 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134693 thread 27 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134694 thread 28 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134695 thread 29 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134696 thread 30 bound to OS proc set 32
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134697 thread 31 bound to OS proc set 33
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134698 thread 32 bound to OS proc set 36
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134699 thread 33 bound to OS proc set 37
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134700 thread 34 bound to OS proc set 38
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134701 thread 35 bound to OS proc set 39
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134702 thread 36 bound to OS proc set 34
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134703 thread 37 bound to OS proc set 35
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134704 thread 38 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134705 thread 39 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134706 thread 40 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134654 thread 41 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134707 thread 42 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134708 thread 43 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134709 thread 44 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134710 thread 45 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134711 thread 46 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134712 thread 47 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134714 thread 49 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134713 thread 48 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134715 thread 50 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134716 thread 51 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134717 thread 52 bound to OS proc set 16
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134718 thread 53 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134719 thread 54 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134720 thread 55 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134721 thread 56 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134722 thread 57 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134723 thread 58 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134724 thread 59 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134725 thread 60 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134726 thread 61 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134727 thread 62 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134728 thread 63 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134729 thread 64 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134730 thread 65 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134732 thread 67 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134731 thread 66 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134733 thread 68 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134734 thread 69 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134736 thread 71 bound to OS proc set 33
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134735 thread 70 bound to OS proc set 32
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134738 thread 73 bound to OS proc set 37
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134737 thread 72 bound to OS proc set 36
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134739 thread 74 bound to OS proc set 38
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134740 thread 75 bound to OS proc set 39
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134741 thread 76 bound to OS proc set 34
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134742 thread 77 bound to OS proc set 35
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134743 thread 78 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134744 thread 79 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 134519 tid 134745 thread 80 bound to OS proc set 0
+WARNING:tensorflow:From /home/loic.mcgill/anaconda3/lib/python3.7/site-packages/tensorflow/python/training/saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+WARNING:tensorflow:From /home/loic.mcgill/SCRIPTS/fmri_predict/HCP_fmripredict/cnn_graph/lib/models.py:990: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+Extracting /home/loic.mcgill/SCRIPTS/fmri_predict/HCP_fmripredict/data/mnist/train-images-idx3-ubyte.gz
+Extracting /home/loic.mcgill/SCRIPTS/fmri_predict/HCP_fmripredict/data/mnist/train-labels-idx1-ubyte.gz
+Extracting /home/loic.mcgill/SCRIPTS/fmri_predict/HCP_fmripredict/data/mnist/t10k-images-idx3-ubyte.gz
+Extracting /home/loic.mcgill/SCRIPTS/fmri_predict/HCP_fmripredict/data/mnist/t10k-labels-idx1-ubyte.gz
+3198 > 3136 edges
+Layer 0: M_0 = |V| = 992 nodes (208 added),|E| = 3196 edges
+Layer 1: M_1 = |V| = 496 nodes (81 added),|E| = 1544 edges
+Layer 2: M_2 = |V| = 248 nodes (32 added),|E| = 775 edges
+Layer 3: M_3 = |V| = 124 nodes (8 added),|E| = 412 edges
+Layer 4: M_4 = |V| = 62 nodes (0 added),|E| = 230 edges
+[<992x992 sparse matrix of type '<class 'numpy.float32'>'
+	with 7384 stored elements in Compressed Sparse Row format>, <496x496 sparse matrix of type '<class 'numpy.float32'>'
+	with 3584 stored elements in Compressed Sparse Row format>, <248x248 sparse matrix of type '<class 'numpy.float32'>'
+	with 1798 stored elements in Compressed Sparse Row format>, <124x124 sparse matrix of type '<class 'numpy.float32'>'
+	with 948 stored elements in Compressed Sparse Row format>, <62x62 sparse matrix of type '<class 'numpy.float32'>'
+	with 522 stored elements in Compressed Sparse Row format>]
+NN architecture
+  input: M_0 = 992
+  layer 1: logits (softmax)
+    representation: M_1 = 10
+    weights: M_0 * M_1 = 992 * 10 = 9920
+    biases: M_1 = 10
+step 600 / 11000 (epoch 1.09 / 20):
+  learning_rate = 1.90e-02, loss_average = 3.91e-01
+  validation accuracy: 90.98 (4549 / 5000), f1 (weighted): 90.95, loss: 3.59e-01
+  time: 3s (wall 1s)
+step 1200 / 11000 (epoch 2.18 / 20):
+  learning_rate = 1.80e-02, loss_average = 3.61e-01
+  validation accuracy: 91.40 (4570 / 5000), f1 (weighted): 91.35, loss: 3.36e-01
+  time: 5s (wall 2s)
+step 1800 / 11000 (epoch 3.27 / 20):
+  learning_rate = 1.71e-02, loss_average = 3.58e-01
+  validation accuracy: 92.12 (4606 / 5000), f1 (weighted): 92.09, loss: 3.26e-01
+  time: 7s (wall 2s)
+step 2400 / 11000 (epoch 4.36 / 20):
+  learning_rate = 1.63e-02, loss_average = 2.87e-01
+  validation accuracy: 92.26 (4613 / 5000), f1 (weighted): 92.24, loss: 3.23e-01
+  time: 10s (wall 3s)
+step 3000 / 11000 (epoch 5.45 / 20):
+  learning_rate = 1.55e-02, loss_average = 3.25e-01
+  validation accuracy: 92.38 (4619 / 5000), f1 (weighted): 92.35, loss: 3.20e-01
+  time: 12s (wall 4s)
+step 3600 / 11000 (epoch 6.55 / 20):
+  learning_rate = 1.47e-02, loss_average = 3.14e-01
+  validation accuracy: 92.02 (4601 / 5000), f1 (weighted): 91.98, loss: 3.17e-01
+  time: 14s (wall 4s)
+step 4200 / 11000 (epoch 7.64 / 20):
+  learning_rate = 1.40e-02, loss_average = 3.52e-01
+  validation accuracy: 92.58 (4629 / 5000), f1 (weighted): 92.56, loss: 3.13e-01
+  time: 17s (wall 5s)
+step 4800 / 11000 (epoch 8.73 / 20):
+  learning_rate = 1.33e-02, loss_average = 3.53e-01
+  validation accuracy: 92.18 (4609 / 5000), f1 (weighted): 92.16, loss: 3.16e-01
+  time: 19s (wall 6s)
+step 5400 / 11000 (epoch 9.82 / 20):
+  learning_rate = 1.26e-02, loss_average = 3.25e-01
+  validation accuracy: 92.28 (4614 / 5000), f1 (weighted): 92.25, loss: 3.14e-01
+  time: 22s (wall 7s)
+step 6000 / 11000 (epoch 10.91 / 20):
+  learning_rate = 1.20e-02, loss_average = 3.57e-01
+  validation accuracy: 92.46 (4623 / 5000), f1 (weighted): 92.43, loss: 3.13e-01
+  time: 24s (wall 7s)
+step 6600 / 11000 (epoch 12.00 / 20):
+  learning_rate = 1.14e-02, loss_average = 3.21e-01
+  validation accuracy: 92.60 (4630 / 5000), f1 (weighted): 92.59, loss: 3.11e-01
+  time: 26s (wall 8s)
+step 7200 / 11000 (epoch 13.09 / 20):
+  learning_rate = 1.03e-02, loss_average = 2.93e-01
+  validation accuracy: 92.18 (4609 / 5000), f1 (weighted): 92.14, loss: 3.12e-01
+  time: 29s (wall 9s)
+step 7800 / 11000 (epoch 14.18 / 20):
+  learning_rate = 9.75e-03, loss_average = 3.10e-01
+  validation accuracy: 92.48 (4624 / 5000), f1 (weighted): 92.46, loss: 3.11e-01
+  time: 31s (wall 10s)
+step 8400 / 11000 (epoch 15.27 / 20):
+  learning_rate = 9.27e-03, loss_average = 3.28e-01
+  validation accuracy: 92.50 (4625 / 5000), f1 (weighted): 92.48, loss: 3.11e-01
+  time: 33s (wall 10s)
+step 9000 / 11000 (epoch 16.36 / 20):
+  learning_rate = 8.80e-03, loss_average = 3.05e-01
+  validation accuracy: 92.58 (4629 / 5000), f1 (weighted): 92.55, loss: 3.10e-01
+  time: 36s (wall 11s)
+step 9600 / 11000 (epoch 17.45 / 20):
+  learning_rate = 8.36e-03, loss_average = 3.34e-01
+  validation accuracy: 92.80 (4640 / 5000), f1 (weighted): 92.79, loss: 3.10e-01
+  time: 38s (wall 12s)
+step 10200 / 11000 (epoch 18.55 / 20):
+  learning_rate = 7.94e-03, loss_average = 3.01e-01
+  validation accuracy: 92.58 (4629 / 5000), f1 (weighted): 92.56, loss: 3.10e-01
+  time: 41s (wall 12s)
+step 10800 / 11000 (epoch 19.64 / 20):
+  learning_rate = 7.55e-03, loss_average = 3.20e-01
+  validation accuracy: 92.86 (4643 / 5000), f1 (weighted): 92.84, loss: 3.09e-01
+  time: 43s (wall 13s)
+step 11000 / 11000 (epoch 20.00 / 20):
+  learning_rate = 7.55e-03, loss_average = 3.10e-01
+  validation accuracy: 92.68 (4634 / 5000), f1 (weighted): 92.66, loss: 3.09e-01
+  time: 44s (wall 13s)
+validation accuracy: peak = 92.86, mean = 92.57
+train accuracy: 92.45 (50845 / 55000), f1 (weighted): 92.42, loss: 3.14e-01
+test  accuracy: 92.31 (9231 / 10000), f1 (weighted): 92.29, loss: 3.14e-01
+Model softmax; Execution time: 45.57s
+
+
+NN architecture
+  input: M_0 = 992
+  layer 1: cgconv1
+    representation: M_0 * F_1 / p_1 = 992 * 10 / 1 = 9920
+    weights: F_0 * F_1 * K_1 = 1 * 10 * 992 = 9920
+    biases: F_1 = 10
+  layer 2: logits (softmax)
+    representation: M_2 = 10
+    weights: M_1 * M_2 = 9920 * 10 = 99200
+    biases: M_2 = 10
+step 600 / 11000 (epoch 1.09 / 20):
+  learning_rate = 1.90e-02, loss_average = 3.59e-01
+  validation accuracy: 89.12 (4456 / 5000), f1 (weighted): 89.04, loss: 3.77e-01
+  time: 62s (wall 4s)
+step 1200 / 11000 (epoch 2.18 / 20):
+  learning_rate = 1.80e-02, loss_average = 3.85e-01
+  validation accuracy: 90.48 (4524 / 5000), f1 (weighted): 90.42, loss: 3.23e-01
+  time: 123s (wall 7s)
+step 1800 / 11000 (epoch 3.27 / 20):
+  learning_rate = 1.71e-02, loss_average = 2.93e-01
+  validation accuracy: 91.38 (4569 / 5000), f1 (weighted): 91.34, loss: 2.94e-01
+  time: 186s (wall 10s)
+step 2400 / 11000 (epoch 4.36 / 20):
+  learning_rate = 1.63e-02, loss_average = 2.70e-01
+  validation accuracy: 91.66 (4583 / 5000), f1 (weighted): 91.62, loss: 2.76e-01
+  time: 250s (wall 14s)
+step 3000 / 11000 (epoch 5.45 / 20):
+  learning_rate = 1.55e-02, loss_average = 2.68e-01
+  validation accuracy: 92.42 (4621 / 5000), f1 (weighted): 92.39, loss: 2.63e-01
+  time: 314s (wall 17s)
+step 3600 / 11000 (epoch 6.55 / 20):
+  learning_rate = 1.47e-02, loss_average = 2.64e-01
+  validation accuracy: 93.52 (4676 / 5000), f1 (weighted): 93.51, loss: 2.41e-01
+  time: 378s (wall 21s)
+step 4200 / 11000 (epoch 7.64 / 20):
+  learning_rate = 1.40e-02, loss_average = 2.23e-01
+  validation accuracy: 93.40 (4670 / 5000), f1 (weighted): 93.39, loss: 2.25e-01
+  time: 439s (wall 24s)
+step 4800 / 11000 (epoch 8.73 / 20):
+  learning_rate = 1.33e-02, loss_average = 2.29e-01
+  validation accuracy: 93.64 (4682 / 5000), f1 (weighted): 93.63, loss: 2.20e-01
+  time: 498s (wall 27s)
+step 5400 / 11000 (epoch 9.82 / 20):
+  learning_rate = 1.26e-02, loss_average = 2.30e-01
+  validation accuracy: 94.02 (4701 / 5000), f1 (weighted): 94.01, loss: 2.05e-01
+  time: 558s (wall 30s)
+step 6000 / 11000 (epoch 10.91 / 20):
+  learning_rate = 1.20e-02, loss_average = 2.12e-01
+  validation accuracy: 94.26 (4713 / 5000), f1 (weighted): 94.24, loss: 1.99e-01
+  time: 617s (wall 34s)
+step 6600 / 11000 (epoch 12.00 / 20):
+  learning_rate = 1.14e-02, loss_average = 2.52e-01
+  validation accuracy: 94.40 (4720 / 5000), f1 (weighted): 94.40, loss: 1.93e-01
+  time: 677s (wall 37s)
+step 7200 / 11000 (epoch 13.09 / 20):
+  learning_rate = 1.03e-02, loss_average = 2.16e-01
+  validation accuracy: 95.12 (4756 / 5000), f1 (weighted): 95.11, loss: 1.82e-01
+  time: 736s (wall 40s)
+step 7800 / 11000 (epoch 14.18 / 20):
+  learning_rate = 9.75e-03, loss_average = 1.76e-01
+  validation accuracy: 94.96 (4748 / 5000), f1 (weighted): 94.96, loss: 1.78e-01
+  time: 796s (wall 44s)
+step 8400 / 11000 (epoch 15.27 / 20):
+  learning_rate = 9.27e-03, loss_average = 1.57e-01
+  validation accuracy: 95.18 (4759 / 5000), f1 (weighted): 95.17, loss: 1.71e-01
+  time: 857s (wall 47s)
+step 9000 / 11000 (epoch 16.36 / 20):
+  learning_rate = 8.80e-03, loss_average = 1.58e-01
+  validation accuracy: 95.28 (4764 / 5000), f1 (weighted): 95.27, loss: 1.70e-01
+  time: 917s (wall 50s)
+step 9600 / 11000 (epoch 17.45 / 20):
+  learning_rate = 8.36e-03, loss_average = 1.48e-01
+  validation accuracy: 95.30 (4765 / 5000), f1 (weighted): 95.29, loss: 1.66e-01
+  time: 977s (wall 54s)
+step 10200 / 11000 (epoch 18.55 / 20):
+  learning_rate = 7.94e-03, loss_average = 1.72e-01
+  validation accuracy: 95.34 (4767 / 5000), f1 (weighted): 95.33, loss: 1.62e-01
+  time: 1038s (wall 57s)
+step 10800 / 11000 (epoch 19.64 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.60e-01
+  validation accuracy: 95.58 (4779 / 5000), f1 (weighted): 95.58, loss: 1.59e-01
+  time: 1099s (wall 60s)
+step 11000 / 11000 (epoch 20.00 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.72e-01
+  validation accuracy: 95.58 (4779 / 5000), f1 (weighted): 95.58, loss: 1.59e-01
+  time: 1122s (wall 62s)
+validation accuracy: peak = 95.58, mean = 95.10
+train accuracy: 95.14 (52325 / 55000), f1 (weighted): 95.13, loss: 1.69e-01
+test  accuracy: 94.92 (9492 / 10000), f1 (weighted): 94.91, loss: 1.71e-01
+Model fgconv_softmax; Execution time: 1155.91s
+
+
+NN architecture
+  input: M_0 = 992
+  layer 1: cgconv1
+    representation: M_0 * F_1 / p_1 = 992 * 10 / 1 = 9920
+    weights: F_0 * F_1 * K_1 = 1 * 10 * 20 = 200
+    biases: F_1 = 10
+  layer 2: logits (softmax)
+    representation: M_2 = 10
+    weights: M_1 * M_2 = 9920 * 10 = 99200
+    biases: M_2 = 10
+step 600 / 11000 (epoch 1.09 / 20):
+  learning_rate = 1.90e-02, loss_average = 1.53e-01
+  validation accuracy: 95.56 (4778 / 5000), f1 (weighted): 95.56, loss: 1.54e-01
+  time: 63s (wall 13s)
+step 1200 / 11000 (epoch 2.18 / 20):
+  learning_rate = 1.80e-02, loss_average = 1.14e-01
+  validation accuracy: 96.76 (4838 / 5000), f1 (weighted): 96.76, loss: 1.08e-01
+  time: 126s (wall 26s)
+step 1800 / 11000 (epoch 3.27 / 20):
+  learning_rate = 1.71e-02, loss_average = 8.31e-02
+  validation accuracy: 97.08 (4854 / 5000), f1 (weighted): 97.08, loss: 9.46e-02
+  time: 188s (wall 39s)
+step 2400 / 11000 (epoch 4.36 / 20):
+  learning_rate = 1.63e-02, loss_average = 5.88e-02
+  validation accuracy: 97.58 (4879 / 5000), f1 (weighted): 97.58, loss: 8.28e-02
+  time: 250s (wall 51s)
+step 3000 / 11000 (epoch 5.45 / 20):
+  learning_rate = 1.55e-02, loss_average = 6.30e-02
+  validation accuracy: 97.64 (4882 / 5000), f1 (weighted): 97.64, loss: 7.65e-02
+  time: 312s (wall 64s)
+step 3600 / 11000 (epoch 6.55 / 20):
+  learning_rate = 1.47e-02, loss_average = 6.86e-02
+  validation accuracy: 97.64 (4882 / 5000), f1 (weighted): 97.64, loss: 7.94e-02
+  time: 374s (wall 76s)
+step 4200 / 11000 (epoch 7.64 / 20):
+  learning_rate = 1.40e-02, loss_average = 5.73e-02
+  validation accuracy: 97.88 (4894 / 5000), f1 (weighted): 97.88, loss: 6.84e-02
+  time: 437s (wall 89s)
+step 4800 / 11000 (epoch 8.73 / 20):
+  learning_rate = 1.33e-02, loss_average = 6.66e-02
+  validation accuracy: 97.78 (4889 / 5000), f1 (weighted): 97.78, loss: 6.99e-02
+  time: 499s (wall 102s)
+step 5400 / 11000 (epoch 9.82 / 20):
+  learning_rate = 1.26e-02, loss_average = 5.30e-02
+  validation accuracy: 98.00 (4900 / 5000), f1 (weighted): 98.00, loss: 6.70e-02
+  time: 561s (wall 114s)
+step 6000 / 11000 (epoch 10.91 / 20):
+  learning_rate = 1.20e-02, loss_average = 4.57e-02
+  validation accuracy: 98.08 (4904 / 5000), f1 (weighted): 98.08, loss: 6.72e-02
+  time: 623s (wall 127s)
+step 6600 / 11000 (epoch 12.00 / 20):
+  learning_rate = 1.14e-02, loss_average = 3.77e-02
+  validation accuracy: 98.00 (4900 / 5000), f1 (weighted): 98.00, loss: 6.54e-02
+  time: 684s (wall 139s)
+step 7200 / 11000 (epoch 13.09 / 20):
+  learning_rate = 1.03e-02, loss_average = 4.65e-02
+  validation accuracy: 98.06 (4903 / 5000), f1 (weighted): 98.06, loss: 6.51e-02
+  time: 746s (wall 152s)
+step 7800 / 11000 (epoch 14.18 / 20):
+  learning_rate = 9.75e-03, loss_average = 4.70e-02
+  validation accuracy: 98.10 (4905 / 5000), f1 (weighted): 98.10, loss: 6.58e-02
+  time: 808s (wall 165s)
+step 8400 / 11000 (epoch 15.27 / 20):
+  learning_rate = 9.27e-03, loss_average = 3.50e-02
+  validation accuracy: 98.02 (4901 / 5000), f1 (weighted): 98.02, loss: 6.53e-02
+  time: 870s (wall 177s)
+step 9000 / 11000 (epoch 16.36 / 20):
+  learning_rate = 8.80e-03, loss_average = 2.35e-02
+  validation accuracy: 98.14 (4907 / 5000), f1 (weighted): 98.14, loss: 6.88e-02
+  time: 932s (wall 190s)
+step 9600 / 11000 (epoch 17.45 / 20):
+  learning_rate = 8.36e-03, loss_average = 2.29e-02
+  validation accuracy: 98.10 (4905 / 5000), f1 (weighted): 98.10, loss: 6.61e-02
+  time: 993s (wall 202s)
+step 10200 / 11000 (epoch 18.55 / 20):
+  learning_rate = 7.94e-03, loss_average = 2.34e-02
+  validation accuracy: 98.06 (4903 / 5000), f1 (weighted): 98.06, loss: 6.73e-02
+  time: 1055s (wall 215s)
+step 10800 / 11000 (epoch 19.64 / 20):
+  learning_rate = 7.55e-03, loss_average = 2.91e-02
+  validation accuracy: 98.02 (4901 / 5000), f1 (weighted): 98.02, loss: 6.44e-02
+  time: 1116s (wall 228s)
+step 11000 / 11000 (epoch 20.00 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.98e-02
+  validation accuracy: 98.12 (4906 / 5000), f1 (weighted): 98.12, loss: 6.64e-02
+  time: 1139s (wall 232s)
+validation accuracy: peak = 98.14, mean = 98.07
+train accuracy: 99.40 (54668 / 55000), f1 (weighted): 99.40, loss: 2.30e-02
+test  accuracy: 98.23 (9823 / 10000), f1 (weighted): 98.23, loss: 6.31e-02
+Model cgconv_softmax; Execution time: 1174.26s
+
+
+[(992, 992), (496, 496), (248, 248), (124, 124), (62, 62)]
+NN architecture
+  input: M_0 = 992
+  layer 1: cgconv1
+    representation: M_0 * F_1 / p_1 = 992 * 32 / 4 = 7936
+    weights: F_0 * F_1 * K_1 = 1 * 32 * 992 = 31744
+    biases: F_1 = 32
+  layer 2: cgconv2
+    representation: M_1 * F_2 / p_2 = 248 * 64 / 4 = 3968
+    weights: F_1 * F_2 * K_2 = 32 * 64 * 248 = 507904
+    biases: F_2 = 64
+  layer 3: fc1
+    representation: M_3 = 512
+    weights: M_2 * M_3 = 3968 * 512 = 2031616
+    biases: M_3 = 512
+  layer 4: logits (softmax)
+    representation: M_4 = 10
+    weights: M_3 * M_4 = 512 * 10 = 5120
+    biases: M_4 = 10
+step 600 / 11000 (epoch 1.09 / 20):
+  learning_rate = 1.90e-02, loss_average = 4.02e+00
+  validation accuracy: 87.94 (4397 / 5000), f1 (weighted): 87.88, loss: 3.93e+00
+  time: 1422s (wall 49s)
+step 1200 / 11000 (epoch 2.18 / 20):
+  learning_rate = 1.80e-02, loss_average = 3.51e+00
+  validation accuracy: 91.64 (4582 / 5000), f1 (weighted): 91.60, loss: 3.45e+00
+  time: 2838s (wall 96s)
+step 1800 / 11000 (epoch 3.27 / 20):
+  learning_rate = 1.71e-02, loss_average = 3.12e+00
+  validation accuracy: 93.64 (4682 / 5000), f1 (weighted): 93.62, loss: 3.08e+00
+  time: 4215s (wall 143s)
+step 2400 / 11000 (epoch 4.36 / 20):
+  learning_rate = 1.63e-02, loss_average = 2.83e+00
+  validation accuracy: 94.16 (4708 / 5000), f1 (weighted): 94.15, loss: 2.78e+00
+  time: 5576s (wall 190s)
+step 3000 / 11000 (epoch 5.45 / 20):
+  learning_rate = 1.55e-02, loss_average = 2.59e+00
+  validation accuracy: 94.80 (4740 / 5000), f1 (weighted): 94.79, loss: 2.53e+00
+  time: 6935s (wall 236s)
+step 3600 / 11000 (epoch 6.55 / 20):
+  learning_rate = 1.47e-02, loss_average = 2.36e+00
+  validation accuracy: 95.30 (4765 / 5000), f1 (weighted): 95.30, loss: 2.31e+00
+  time: 8294s (wall 282s)
+step 4200 / 11000 (epoch 7.64 / 20):
+  learning_rate = 1.40e-02, loss_average = 2.16e+00
+  validation accuracy: 95.72 (4786 / 5000), f1 (weighted): 95.72, loss: 2.13e+00
+  time: 9651s (wall 329s)
+step 4800 / 11000 (epoch 8.73 / 20):
+  learning_rate = 1.33e-02, loss_average = 2.00e+00
+  validation accuracy: 95.86 (4793 / 5000), f1 (weighted): 95.85, loss: 1.97e+00
+  time: 11041s (wall 376s)
+step 5400 / 11000 (epoch 9.82 / 20):
+  learning_rate = 1.26e-02, loss_average = 1.89e+00
+  validation accuracy: 96.10 (4805 / 5000), f1 (weighted): 96.10, loss: 1.83e+00
+  time: 12425s (wall 424s)
+step 6000 / 11000 (epoch 10.91 / 20):
+  learning_rate = 1.20e-02, loss_average = 1.74e+00
+  validation accuracy: 96.48 (4824 / 5000), f1 (weighted): 96.48, loss: 1.71e+00
+  time: 13788s (wall 470s)
+step 6600 / 11000 (epoch 12.00 / 20):
+  learning_rate = 1.14e-02, loss_average = 1.65e+00
+  validation accuracy: 96.54 (4827 / 5000), f1 (weighted): 96.54, loss: 1.61e+00
+  time: 15152s (wall 516s)
+step 7200 / 11000 (epoch 13.09 / 20):
+  learning_rate = 1.03e-02, loss_average = 1.55e+00
+  validation accuracy: 96.44 (4822 / 5000), f1 (weighted): 96.43, loss: 1.52e+00
+  time: 16515s (wall 562s)
+step 7800 / 11000 (epoch 14.18 / 20):
+  learning_rate = 9.75e-03, loss_average = 1.46e+00
+  validation accuracy: 96.52 (4826 / 5000), f1 (weighted): 96.51, loss: 1.43e+00
+  time: 17880s (wall 608s)
+step 8400 / 11000 (epoch 15.27 / 20):
+  learning_rate = 9.27e-03, loss_average = 1.38e+00
+  validation accuracy: 96.90 (4845 / 5000), f1 (weighted): 96.90, loss: 1.36e+00
+  time: 19233s (wall 654s)
+step 9000 / 11000 (epoch 16.36 / 20):
+  learning_rate = 8.80e-03, loss_average = 1.32e+00
+  validation accuracy: 96.72 (4836 / 5000), f1 (weighted): 96.71, loss: 1.29e+00
+  time: 20576s (wall 699s)
+step 9600 / 11000 (epoch 17.45 / 20):
+  learning_rate = 8.36e-03, loss_average = 1.28e+00
+  validation accuracy: 96.74 (4837 / 5000), f1 (weighted): 96.74, loss: 1.24e+00
+  time: 21922s (wall 745s)
+step 10200 / 11000 (epoch 18.55 / 20):
+  learning_rate = 7.94e-03, loss_average = 1.20e+00
+  validation accuracy: 97.10 (4855 / 5000), f1 (weighted): 97.10, loss: 1.18e+00
+  time: 23266s (wall 791s)
+step 10800 / 11000 (epoch 19.64 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.17e+00
+  validation accuracy: 97.20 (4860 / 5000), f1 (weighted): 97.20, loss: 1.13e+00
+  time: 24631s (wall 837s)
+step 11000 / 11000 (epoch 20.00 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.13e+00
+  validation accuracy: 97.22 (4861 / 5000), f1 (weighted): 97.22, loss: 1.12e+00
+  time: 25124s (wall 854s)
+validation accuracy: peak = 97.22, mean = 96.79
+train accuracy: 97.01 (53356 / 55000), f1 (weighted): 97.01, loss: 1.12e+00
+test  accuracy: 96.84 (9684 / 10000), f1 (weighted): 96.84, loss: 1.12e+00
+Model fgconv_fgconv_fc_softmax; Execution time: 25815.28s
+
+
+{'dir_name': 'mnist/cgconv_cgconv_fc_softmax', 'num_epochs': 20, 'batch_size': 100, 'decay_steps': 550.0, 'eval_frequency': 600, 'brelu': 'b1relu', 'pool': 'mpool1', 'regularization': 0.0005, 'dropout': 0.5, 'learning_rate': 0.02, 'decay_rate': 0.95, 'momentum': 0.9, 'F': [32, 64], 'K': [25, 25], 'p': [4, 4], 'M': [512, 10], 'filter': 'chebyshev5'}
+[(992, 992), (496, 496), (248, 248), (124, 124), (62, 62)]
+NN architecture
+  input: M_0 = 992
+  layer 1: cgconv1
+    representation: M_0 * F_1 / p_1 = 992 * 32 / 4 = 7936
+    weights: F_0 * F_1 * K_1 = 1 * 32 * 25 = 800
+    biases: F_1 = 32
+  layer 2: cgconv2
+    representation: M_1 * F_2 / p_2 = 248 * 64 / 4 = 3968
+    weights: F_1 * F_2 * K_2 = 32 * 64 * 25 = 51200
+    biases: F_2 = 64
+  layer 3: fc1
+    representation: M_3 = 512
+    weights: M_2 * M_3 = 3968 * 512 = 2031616
+    biases: M_3 = 512
+  layer 4: logits (softmax)
+    representation: M_4 = 10
+    weights: M_3 * M_4 = 512 * 10 = 5120
+    biases: M_4 = 10
+step 600 / 11000 (epoch 1.09 / 20):
+  learning_rate = 1.90e-02, loss_average = 3.71e+00
+  validation accuracy: 96.80 (4840 / 5000), f1 (weighted): 96.80, loss: 3.62e+00
+  time: 2594s (wall 174s)
+step 1200 / 11000 (epoch 2.18 / 20):
+  learning_rate = 1.80e-02, loss_average = 3.25e+00
+  validation accuracy: 97.68 (4884 / 5000), f1 (weighted): 97.68, loss: 3.21e+00
+  time: 5239s (wall 347s)
+step 1800 / 11000 (epoch 3.27 / 20):
+  learning_rate = 1.71e-02, loss_average = 2.94e+00
+  validation accuracy: 98.14 (4907 / 5000), f1 (weighted): 98.14, loss: 2.88e+00
+  time: 7915s (wall 521s)
+step 2400 / 11000 (epoch 4.36 / 20):
+  learning_rate = 1.63e-02, loss_average = 2.63e+00
+  validation accuracy: 98.44 (4922 / 5000), f1 (weighted): 98.44, loss: 2.61e+00
+  time: 10470s (wall 693s)
+step 3000 / 11000 (epoch 5.45 / 20):
+  learning_rate = 1.55e-02, loss_average = 2.39e+00
+  validation accuracy: 98.60 (4930 / 5000), f1 (weighted): 98.60, loss: 2.37e+00
+  time: 13151s (wall 868s)
+step 3600 / 11000 (epoch 6.55 / 20):
+  learning_rate = 1.47e-02, loss_average = 2.18e+00
+  validation accuracy: 98.54 (4927 / 5000), f1 (weighted): 98.54, loss: 2.17e+00
+  time: 15743s (wall 1039s)
+step 4200 / 11000 (epoch 7.64 / 20):
+  learning_rate = 1.40e-02, loss_average = 2.01e+00
+  validation accuracy: 98.58 (4929 / 5000), f1 (weighted): 98.58, loss: 2.00e+00
+  time: 18415s (wall 1213s)
+step 4800 / 11000 (epoch 8.73 / 20):
+  learning_rate = 1.33e-02, loss_average = 1.85e+00
+  validation accuracy: 98.68 (4934 / 5000), f1 (weighted): 98.68, loss: 1.85e+00
+  time: 21059s (wall 1386s)
+step 5400 / 11000 (epoch 9.82 / 20):
+  learning_rate = 1.26e-02, loss_average = 1.70e+00
+  validation accuracy: 98.68 (4934 / 5000), f1 (weighted): 98.68, loss: 1.72e+00
+  time: 23710s (wall 1559s)
+step 6000 / 11000 (epoch 10.91 / 20):
+  learning_rate = 1.20e-02, loss_average = 1.59e+00
+  validation accuracy: 98.68 (4934 / 5000), f1 (weighted): 98.68, loss: 1.60e+00
+  time: 26411s (wall 1733s)
+step 6600 / 11000 (epoch 12.00 / 20):
+  learning_rate = 1.14e-02, loss_average = 1.50e+00
+  validation accuracy: 98.94 (4947 / 5000), f1 (weighted): 98.94, loss: 1.49e+00
+  time: 29074s (wall 1908s)
+step 7200 / 11000 (epoch 13.09 / 20):
+  learning_rate = 1.03e-02, loss_average = 1.40e+00
+  validation accuracy: 98.88 (4944 / 5000), f1 (weighted): 98.88, loss: 1.40e+00
+  time: 31676s (wall 2080s)
+step 7800 / 11000 (epoch 14.18 / 20):
+  learning_rate = 9.75e-03, loss_average = 1.31e+00
+  validation accuracy: 98.84 (4942 / 5000), f1 (weighted): 98.84, loss: 1.32e+00
+  time: 34275s (wall 2253s)
+step 8400 / 11000 (epoch 15.27 / 20):
+  learning_rate = 9.27e-03, loss_average = 1.24e+00
+  validation accuracy: 98.92 (4946 / 5000), f1 (weighted): 98.92, loss: 1.25e+00
+  time: 36890s (wall 2426s)
+step 9000 / 11000 (epoch 16.36 / 20):
+  learning_rate = 8.80e-03, loss_average = 1.18e+00
+  validation accuracy: 98.96 (4948 / 5000), f1 (weighted): 98.96, loss: 1.19e+00
+  time: 39608s (wall 2600s)
+step 9600 / 11000 (epoch 17.45 / 20):
+  learning_rate = 8.36e-03, loss_average = 1.12e+00
+  validation accuracy: 98.84 (4942 / 5000), f1 (weighted): 98.84, loss: 1.13e+00
+  time: 42149s (wall 2771s)
+step 10200 / 11000 (epoch 18.55 / 20):
+  learning_rate = 7.94e-03, loss_average = 1.07e+00
+  validation accuracy: 98.92 (4946 / 5000), f1 (weighted): 98.92, loss: 1.08e+00
+  time: 44767s (wall 2944s)
+step 10800 / 11000 (epoch 19.64 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.02e+00
+  validation accuracy: 98.94 (4947 / 5000), f1 (weighted): 98.94, loss: 1.04e+00
+  time: 47349s (wall 3117s)
+step 11000 / 11000 (epoch 20.00 / 20):
+  learning_rate = 7.55e-03, loss_average = 1.01e+00
+  validation accuracy: 98.88 (4944 / 5000), f1 (weighted): 98.88, loss: 1.02e+00
+  time: 48251s (wall 3178s)
+validation accuracy: peak = 98.96, mean = 98.88
+train accuracy: 99.75 (54862 / 55000), f1 (weighted): 99.75, loss: 9.92e-01
+test  accuracy: 98.95 (9895 / 10000), f1 (weighted): 98.95, loss: 1.01e+00
+Model cgconv_cgconv_fc_softmax; Execution time: 49244.87s
+
+
+  accuracy        F1             loss        time [ms]  name
+test  train   test  train   test     train
+98.95 99.75   98.95 99.75   1.01e+00 9.92e-01   289   cgconv_cgconv_fc_softmax
+98.23 99.40   98.23 99.40   6.31e-02 2.30e-02    21   cgconv_softmax
+96.84 97.01   96.84 97.01   1.12e+00 1.12e+00    78   fgconv_fgconv_fc_softmax
+94.92 95.14   94.91 95.13   1.71e-01 1.69e-01     6   fgconv_softmax
+92.31 92.45   92.29 92.42   3.14e-01 3.14e-01     1   softmax
+Execution time for model1: 45.57s
+
+
+Execution time for model2: 1155.91s
+
+
+Execution time for model3: 1174.26s
+
+
+Execution time for model4: 25815.28s
+
+
+Execution time for model5: 49244.87s
